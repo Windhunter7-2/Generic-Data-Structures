@@ -10,3 +10,4 @@ While things such as JDSL might exist already, a lot of these other extensions h
 # Authors (So Far)
 - Evan Baker
 - Ashish Singh
+- Emilia Williams
