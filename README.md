@@ -12,3 +12,4 @@ While things such as JDSL might exist already, a lot of these other extensions h
 - Ashish Singh
 - Emilia Williams
 - William Au
+- Amro Karar
