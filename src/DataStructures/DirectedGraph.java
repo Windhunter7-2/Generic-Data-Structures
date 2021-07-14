@@ -86,7 +86,7 @@ public class DirectedGraph <T> {
 	{
 		synchronized (universalLock)
 		{
-			//TO DO
+			//DONE
 			if(vertices.containsKey(valA) && vertices.containsKey(valB)){
 				if(vertices.get(valA).contains(valB)&&vertices.get(valB).contains(valA)){
 					vertices.get(valA).remove(valB);
@@ -102,7 +102,7 @@ public class DirectedGraph <T> {
 	{
 		synchronized (universalLock)
 		{
-			//TO DO
+			//DONE
 			int count = 0;
 			for(T vertex : vertices.keySet()){
 				count ++;
@@ -118,7 +118,7 @@ public class DirectedGraph <T> {
 	{
 		synchronized (universalLock)
 		{
-			//TO DO
+			//DONE
 			vertices.put(newVal, vertices.get(get_edge_value(index)));
 			vertices.remove(get_edge_value(index));
 		}
@@ -145,7 +145,7 @@ public class DirectedGraph <T> {
 	{
 		synchronized (universalLock)
 		{
-			//TO DO
+			//DONE
 			if(vertices.containsKey(valA) && vertices.containsKey(valB)){
 				if(vertices.get(valA).contains(valB)&&vertices.get(valB).contains(valA)){
 					return true;
@@ -167,7 +167,7 @@ public class DirectedGraph <T> {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 }
